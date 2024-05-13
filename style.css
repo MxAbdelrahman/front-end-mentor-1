@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+    font-family: "Poetsen One", sans-serif;
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenar {
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    height: 600px;
+    border-radius: 13px;
+}
+.top img{
+    width: 25%;
+    height: 25%;
+    margin: 20px 0;
+    position: relative;
+    left: 50%;
+    translate: -50%;
+    border-radius: 50%;
+}
+.top h1{
+    font-size: 23px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    
+}
+.top .p1{
+color: hsl(75, 94%, 57%);
+text-align: center;
+font-size: 14px;
+margin-top: 10px;
+}
+.top .p2{
+    color: rgba(255, 255, 255, 0.582)    ;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    }
+    .min {
+        display: grid;
+        align-items: center;
+    }
+.min ul{
+    text-align: center;
+    list-style: none;
+    margin-top:2% ;
+}
+.min ul li a{
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    height: 100%;
+    /* margin: 10px; */
+    margin: 4.5%;
+} 
+.min ul li {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    width: 80%;
+    align-items:center ;
+    margin: 15px auto;
+transition: 0.5s;
+}
+.min ul li:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+footer {
+background-color: hsl(0, 0%, 20%);
+position: absolute;
+bottom: 0;
+height: 100px;
+width: 100%;
+margin-bottom: -200px;
+color: hsla(0, 0%, 100%, 0.637);
+display:grid ;
+grid-template-columns: 20% 20%;
+padding: 10px;
+}
+footer a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+    width: 200px;
+}
+.attribution {
+width: 200px;
+}
+@media (max-width:500px) and (min-width:300px) {
+    .contenar {
+        background-color: hsl(0, 0%, 12%);
+        width: 90%;
+        height: 80%;
+        border-radius: 13px;
+    }
+    .min {
+        display: grid;
+        align-items: center;
+    }
+.min ul{
+    text-align: center;
+    list-style: none;
+    margin-top:15% ;
+}
+.min ul li a{
+    display: inline-block;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    height: 100%;
+    /* margin: 10px; */
+    margin: 4.5%;
+} 
+.min ul li {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    width: 80%;
+    align-items:center ;
+    margin: 15px auto;
+transition: 0.5s;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
